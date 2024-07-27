@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CardHoverEffect from "../components/CardHoverEffect.astro";
+import FlipWords from "../components/FlipWords.astro";
+import Sparkle from "../components/Sparkle.astro";
+import Meteors from "../components/Meteors.astro";
+import { TextGenerateEffect } from "../components/react/aceternityui/TextGenerateEffect";
+import Spotlight from "../components/Spotlight.astro";
+---
+
+<Layout title="Amsaldi Portofolio.">
+  <div>
+    <header
+      class="fixed top-0 right-0 flex justify-end items-center p-4 bg-transparent z-10 text-white border-b border-transparent rounded-md m-4 text-center"
+    >
+      <nav>
+        <a href="/#" class="px-4">Home</a>
+        <a href="/#about" class="px-4">About</a>
+        <a href="/#projects" class="px-4">Projects</a>
+      </nav>
+    </header>
+  </div>
+  <section id="home">
+    <FlipWords />
+  </section>
+  <section id="about">
+    <Meteors />
+  </section>
+  <section id="projects">
+    <Sparkle />
+  </section>
+  <section id="contact">
+    <Spotlight/>
+  </section>
+</Layout>
