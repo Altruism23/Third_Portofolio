@@ -23,7 +23,7 @@ export const projects = [
     image: "/web2.png", // tambahkan url gambar disini
   },
   {
-    title: "Google",
+    title: "Third Portofolio",
     description:
       "This is the portfolio website you are currently viewing. It serves as a comprehensive showcase of my work, skills, and projects. Designed and developed to highlight my abilities in front-end development, this website features a clean, modern design and interactive elements to engage visitors. Through this site, I aim to provide a clear and detailed view of my professional journey and achievements.",
     link: "https://amsaldi3.vercel.app",
