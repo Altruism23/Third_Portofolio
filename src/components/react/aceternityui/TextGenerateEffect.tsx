@@ -57,7 +57,7 @@ export const TextGenerateEffect = ({
         {wordsArray.map((word, idx) => (
           <motion.span
             key={word + idx}
-            className="dark:text-white text-justify max-md:text-base text-black opacity-0"
+            className="text-justify max-md:text-base text-white opacity-0"
             style={{
               filter: filter ? "blur(10px)" : "none",
             }}
